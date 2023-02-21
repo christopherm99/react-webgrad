@@ -7,7 +7,7 @@
     "main": false
   },
   "scripts": {
-    "build": "parcel build demo/index.html",
+    "build": "parcel build --no-scope-hoist demo/index.html",
     "start": "parcel demo/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
